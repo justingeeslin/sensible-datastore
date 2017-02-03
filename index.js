@@ -18,6 +18,9 @@ DataStore = function (options) {
     return dataStore.hasOwnProperty(key)
   }
 
+  this.empty = function() {
+    dataStore = {};
+  }
 
   return this;
 };
