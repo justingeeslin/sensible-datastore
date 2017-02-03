@@ -11,10 +11,6 @@ engines:
     enabled: true
   fixme:
     enabled: false
-ratings:
-  paths:
-  - "style.css"
-  - "js/*"
 exclude_paths:
 - dist/
 - node_modules/
