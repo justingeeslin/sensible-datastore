@@ -1,7 +1,7 @@
 {
   "name": "sensible-datastore",
   "version": "1.0.0",
-  "description": "",
+  "description": "A class for storing data inside of a private data member accessible only by Setters and Getters.",
   "main": "index.js",
   "directories": {
     "test": "tests"
