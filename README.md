@@ -4,19 +4,25 @@ A class for storing data inside of a private data member accessible only by Sett
 
 ## Usage
 
-`const DataStore = require('sensible-datastore');
+```JavaScript
+const DataStore = require('sensible-datastore');
 var myData = new DataStore();
 myData.set({firstName: 'John', lastName: 'Doe'});
 myData.set('middleName', "Wayne");
-var firstName = myData.get('firstName');`
+var firstName = myData.get('firstName');
+```
 
 Optionally, you might want to empty the data store completely
 
-`myData.empty()`
+```JavaScript
+myData.empty()
+```
 
 Optionally, you might want all the data at once.
 
-`var data = myData.getAll()`
+```JavaScript
+var data = myData.getAll()
+```
 
 ## Installing via NPM
 `npm install --save https://github.com/justingeeslin/sensible-datastore`
