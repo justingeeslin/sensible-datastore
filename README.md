@@ -4,11 +4,11 @@ A class for storing data inside of a private data member accessible only by Sett
 
 ## Usage
 
-`const DataStore = require('sensible-datastore');
+```const DataStore = require('sensible-datastore');
 var myData = new DataStore();
 myData.set({firstName: 'John', lastName: 'Doe'});
 myData.set('middleName', "Wayne");
-var firstName = myData.get('firstName');`
+var firstName = myData.get('firstName');```
 
 Optionally, you might want to empty the data store completely
 
