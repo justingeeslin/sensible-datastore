@@ -27,5 +27,8 @@ var data = myData.getAll()
 ## Installing via NPM
 `npm install --save https://github.com/justingeeslin/sensible-datastore`
 
+## Testing
+`npm test`
+
 ## Other Notes
 Uses jQuery's Extend.
