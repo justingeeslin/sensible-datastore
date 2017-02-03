@@ -10,7 +10,14 @@
     "test": "./node_modules/karma/bin/karma start"
   },
   "author": "Justin Geeslin",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justingeeslin/sensible-datastore"
+  },
+  "bugs": {
+    "url": "https://github.com/justingeeslin/sensible-datastore/issues"
+  },
+  "license": "GPL",
   "devDependencies": {
     "jasmine-core": "^2.5.2",
     "karma": "^1.4.1",
