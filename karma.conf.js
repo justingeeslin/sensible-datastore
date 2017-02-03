@@ -61,6 +61,13 @@ module.exports = function(config) {
       'Chrome',
 		],
 
+    customLaunchers: {
+  		Chrome_travis_ci: {
+  				base: 'Chrome',
+  				flags: ['--no-sandbox ']
+  		},
+    }
+
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: true,
@@ -69,4 +76,8 @@ module.exports = function(config) {
     // how many browser should be started simultaneous
     concurrency: Infinity
   })
+
+	if(process.env.TRAVIS){
+		config.browsers = ['Chrome_travis_ci'];
+	}
 }
