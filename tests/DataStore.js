@@ -25,6 +25,10 @@ describe('DataStore', function() {
 			var returnValue = theData.set(['name'], 'John');
 			// Get the value. Is it the same value?
 			expect(returnValue).toBe(false);
+
+			var returnValueBool = theData.set(true, 'John');
+			// Get the value. Is it the same value?
+			expect(returnValueBool).toBe(false);
     });
 
 		it('should return false if the first parameter is a key but second parameter of set is neither an object or a string.', function() {
