@@ -21,7 +21,7 @@ describe('DataStore', function() {
 			expect(theData.get('name')).toBe('James');
     });
 
-		it('should return false if the first parameter of set is not either an object or a string key.', function() {
+		it('should return false if the first parameter of set function is not either an object or a string key.', function() {
 			var returnValue = theData.set(['name'], 'John');
 			// Get the value. Is it the same value?
 			expect(returnValue).toBe(false);

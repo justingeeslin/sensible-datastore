@@ -8,7 +8,7 @@ DataStore = function (options) {
       console.error('Attempting to set data, but the first parameter should be either an object or a string. Found array.')
       return false;
     }
-    if (typeof key === "object") {
+    else if (typeof key === "object") {
       // Copy the values into the data Store
       $.extend(dataStore, key)
     }
