@@ -2,7 +2,7 @@
 
 A class for storing data inside of a private data member accessible only by Setters and Getters.
 
-[![Build Status](https://travis-ci.org/justingeeslin/sensible-datastore.svg?branch=master)](https://travis-ci.org/justingeeslin/sensible-datastore) [![Code Climate](https://codeclimate.com/github/justingeeslin/sensible-datastore/badges/gpa.svg)](https://codeclimate.com/github/justingeeslin/sensible-datastore)
+[![Build Status](https://travis-ci.org/justingeeslin/sensible-datastore.svg?branch=master)](https://travis-ci.org/justingeeslin/sensible-datastore) [![Code Climate](https://codeclimate.com/github/justingeeslin/sensible-datastore/badges/gpa.svg)](https://codeclimate.com/github/justingeeslin/sensible-datastore) [![Test Coverage](https://codeclimate.com/github/justingeeslin/sensible-datastore/badges/coverage.svg)](https://codeclimate.com/github/justingeeslin/sensible-datastore/coverage)
 
 ## Usage
 
