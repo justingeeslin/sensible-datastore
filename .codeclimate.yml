@@ -11,6 +11,9 @@ engines:
     enabled: true
   fixme:
     enabled: false
+ratings:
+  paths:
+  - "index.js"
 exclude_paths:
 - dist/
 - node_modules/
